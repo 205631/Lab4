@@ -75,14 +75,14 @@ public class AlgoritmoAnagramma {
 	
 	//TEST
 	
-	/*public static void main(String[] args) { 
+	public static void main(String[] args) { 
 		AlgoritmoAnagramma a=new AlgoritmoAnagramma("ciao");
 		
 		List<String> r;
 		r=a.permuta();
 		System.out.println(r);
 		System.out.println(a.get());
-	}*/
+	}
 
 	
 	
