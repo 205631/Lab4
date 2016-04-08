@@ -5,8 +5,8 @@ import java.util.List;
 
 public class AlgoritmoAnagramma {
 
-	public List<String> parola;//ogni posizione della lista ha un carattere della parola completa
-	public int lunghezzaParola;//lunghezza della parola completa e di conseguenza della lista
+	private List<String> parola;//ogni posizione della lista ha un carattere della parola completa
+	private int lunghezzaParola;//lunghezza della parola completa e di conseguenza della lista
 	
 	Integer ris=0;
 	
@@ -76,7 +76,7 @@ public class AlgoritmoAnagramma {
 	//TEST
 	
 	public static void main(String[] args) { 
-		AlgoritmoAnagramma a=new AlgoritmoAnagramma("ciao");
+		AlgoritmoAnagramma a=new AlgoritmoAnagramma("eat");
 		
 		List<String> r;
 		r=a.permuta();

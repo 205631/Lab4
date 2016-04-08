@@ -9,8 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.TextFlow?>
 
-
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="it.polito.tdp.anagrammi.AnagrammiController">
+<BorderPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.anagrammi.AnagrammiController">
    <top>
       <Label text="Lab04" BorderPane.alignment="CENTER">
          <BorderPane.margin>
@@ -30,10 +29,10 @@
                   <Insets bottom="10.0" />
                </VBox.margin>
             </HBox>
-            <TextFlow fx:id="txtResult" />
+            <TextFlow fx:id="txtResult" prefHeight="400.0" prefWidth="400.0" />
             <HBox alignment="CENTER_RIGHT" spacing="20.0">
                <children>
-                  <Button fx:id="btmReset" mnemonicParsing="false" onAction="#doReset" text="Reset" />
+                  <Button fx:id="btmReset" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#doReset" text="Reset" />
                </children>
                <VBox.margin>
                   <Insets bottom="10.0" />
